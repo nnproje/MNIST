@@ -1,0 +1,50 @@
+# depslib dependency file v1.0
+1549814620 source:f:\codes\c++\asd\proj2\main.cpp
+	<iostream>
+	"NeuralNetwork.h"
+	"dataset.h"
+
+1549801118 f:\codes\c++\asd\proj2\neuralnetwork.h
+	"Matrix.h"
+	"Dictionary.h"
+	"layer.h"
+
+1549569305 f:\codes\c++\asd\proj2\matrix.h
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<iomanip>
+	<sstream>
+	<math.h>
+	<random>
+
+1545140158 f:\codes\c++\asd\proj2\dictionary.h
+	<iostream>
+	<string>
+	<process.h>
+	<conio.h>
+	<list>
+	<vector>
+
+1549649364 f:\codes\c++\asd\proj2\layer.h
+	<string>
+
+1549801118 f:\codes\c++\asd\proj2\dataset.h
+	<fstream>
+	"Matrix.h"
+
+1549801118 source:f:\codes\c++\asd\proj2\neuralnetwork.cpp
+	"NeuralNetwork.h"
+	"Activations.h"
+	<fstream>
+	"CharGenerate.h"
+
+1549801118 f:\codes\c++\asd\proj2\activations.h
+	"Matrix.h"
+
+1545141166 f:\codes\c++\asd\proj2\chargenerate.h
+	<string>
+
+1549621164 f:\codes\c++\asd\proj2\shuffle.h
+	"Matrix.h"
+
