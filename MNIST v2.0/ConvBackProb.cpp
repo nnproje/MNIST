@@ -192,4 +192,97 @@ void updateparameters (float alpha,int iteration,vector<Volume>& W, Volume& b,ve
     }
     /*END OF ADAM OPTIMIZER*/
 }
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+void ConvBackward(vector<Volume>& ACprev, vector<Volume>& dAC, vector<Volume>& filters, int s)
+{
+    vector<Volume> filtergrade = FilterGrades(ACprev, dAC);
+    vector<Volume> RotatedFilters(filters.size());
+    RotateAllVolumes(filters, RotatedFilters);
+    vector<Volume> dACprev = FullConvolution(dAC, RotatedFilters);
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+vector<Volume> FullConvolution(vector<Volume>& dAC, vector<Volume>& RotatedFilters)
+{
+    int p;
+    vector<Volume> Padded_dAC(dAC.size());
+    PadAllVolumes(dAC, Padded_dAC, p, 0);
+    int numOfFilteres = RotatedFilters.size();
+	int m = Padded_dAC.size();
+	int stride = 1;
+	vector<Volume> A(m);
+	for (int i = 0; i < m; i++)
+		A[i].resize(numOfFilteres);
+
+	for (int i = 0; i<m; i++)
+		for (int j = 0; j<numOfFilteres; j++)
+		{
+			//stride must be got from dictionary
+			int stride = 1;
+			//convolve the ith activations with the jth filter to produce z which is pointer to (nh,nw) matrix
+			Matrix* z = convolve(dAC[i], Padded_dAC[j], stride);
+            //z is pointer to the output of convolution, push it into the volume A[i]
+			A[i][j] = z;
+		}
+	return A;
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void PadAllVolumes(vector<Volume>& Original, vector<Volume>& Result, int p, int value)
+{
+    for(int i = 0; i<Original.size(); i++)
+        PadVolume(Original[i], Result[i], p, value);
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void PadVolume(Volume& Original, Volume& Result, int p, int value)
+{
+    for(int i = 0; i<Original.size(); i++)
+    {
+        Matrix* PaddedMat = new Matrix(Original[i]->Rows(), Original[i]->Columns(), 0);
+        PaddedMat = pad(Original[i], p, value);
+        Result[i] = new Matrix(Original[i]->Rows(), Original[i]->Columns(), 0);
+        Result[i] = PaddedMat;
+    }
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void RotateAllVolumes(vector<Volume>& filters, vector<Volume>& RotatedFilters)
+{
+    int numOfFilters = filters.size();
+    for(int i=0; i<numOfFilters; i++)
+        RotateVolume(filters[i], RotatedFilters[i]);
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+void RotateVolume(Volume& filter, Volume& Result)
+{
+    for(int i=0; i<filter.size(); i++)
+    {
+        Result[i] = new Matrix(filter[i]->Rows(), filter[i]->Columns());
+        *Result[i] = filter[i]->Rotate180();
+    }
+
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+vector<Volume> FilterGrades(vector<Volume>& ACprev, vector<Volume>& dAC)
+{
+    int numOfFilters = dAC.size();
+	int m = ACprev.size();
+	int stride = 1;
+	vector<Volume> A(m);
+	for (int i = 0; i < m; i++)
+		A[i].resize(numOfFilters);
+
+	for (int i = 0; i<m; i++)
+		for (int j = 0; j<numOfFilters; j++)
+		{
+			//stride must be got from dictionary
+			int stride = 1;
+			//convolve the ith activations with the jth filter to produce z which is pointer to (nh,nw) matrix
+			Matrix* z = convolve(ACprev[i], dAC[j], stride);
+            //z is pointer to the output of convolution, push it into the volume A[i]
+			A[i][j] = z;
+		}
+	return A;
+}
 

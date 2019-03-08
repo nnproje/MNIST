@@ -1,10 +1,4 @@
-#pragma once
-#ifndef matrix_head
-#define matrix_head
 #include <iostream>
-#include <conio.h>
-#include <process.h>
-#include <cmath>
 #include <ctime>
 #include <cstdlib>
 #include <iomanip>
@@ -12,8 +6,10 @@
 #include <math.h>
 #include <random>
 #include <fstream>
-enum MatrixType {Identity, Random, Bernoulli};
+#ifndef matrix_head
+#define matrix_head
 using namespace std;
+enum MatrixType {Identity, Random, Bernoulli};
 
 template<typename E>
 class matrix
@@ -22,7 +18,7 @@ private:
 	int row;
 	int column;
 	E** data;
-	std::default_random_engine generator;
+	default_random_engine generator;
 
 public:
     //Constructors and destructor
@@ -73,7 +69,7 @@ public:
 	matrix CholeskyInverse() const;
 	matrix SlowInverse() const;
 	matrix transpose() const;
-	matrix sum(std::string choice) const;                    //If choice == "row" , result is 1 x column. If choice == "column", result is row x 1.
+	matrix sum(string choice) const;                    //If choice == "row" , result is 1 x column. If choice == "column", result is row x 1.
 	E sumall() const;                                   //Sums all elements in matrix
 	E MaxElement() const;
 	E MinElement() const;
@@ -81,6 +77,7 @@ public:
 	void Fill(E e);                                     //Fills all elements with e
 	matrix LowerTri() const;
 	matrix LTinverse() const;
+	matrix Rotate180() const;
 
 	//Special operations
 	matrix getlog() const;                              //log(matrix)
@@ -958,6 +955,38 @@ matrix<E> matrix<E>::LTinverse() const
 
 	/* Step 4 */
 	return result.dot(diag);
+}
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+template<typename E>
+matrix<E> matrix<E>::Rotate180() const
+{
+	matrix<E> arr(row, column, 0);
+	for (int i = 0; i < column; i++)
+		for (int j = 0; j < row; j++)
+			arr.data[i][j] = data[j][i];
+    for (int i = 0; i < column; i++)
+        for (int j = 0, k = column - 1; j < k; j++, k--)
+        {
+            E temp = arr.data[j][i];
+            arr.data[j][i] = arr.data[k][i];
+            arr.data[k][i] = temp;
+        }
+    for (int i = 0; i < column; i++)
+		for (int j = i; j < row; j++)
+        {
+            E temp = arr.data[i][j];
+            arr.data[i][j] = arr.data[j][i];
+            arr.data[j][i] = temp;
+        }
+    for (int i = 0; i < column; i++)
+        for (int j = 0, k = column - 1; j < k; j++, k--)
+        {
+            E temp = arr.data[j][i];
+            arr.data[j][i] = arr.data[k][i];
+            arr.data[k][i] = temp;
+        }
+
+	return arr;
 }
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 template<typename E>

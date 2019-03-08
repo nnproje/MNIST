@@ -101,3 +101,95 @@
 1552063292 source:f:\codes\c++\asd\mnist v2.0\convbackprob.cpp
 	"ConvBackProb.h"
 
+1552042112 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\activations.cpp
+	"Activations.h"
+
+1552042112 f:\college\4th year - 2nd semster\graduation project\mnist v2.0\activations.h
+	"Matrix.h"
+
+1551993412 f:\college\4th year - 2nd semster\graduation project\mnist v2.0\matrix.h
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<iomanip>
+	<sstream>
+	<math.h>
+	<random>
+	<fstream>
+
+1552042112 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\cnn.cpp
+	"CNN.h"
+
+1552042112 f:\college\4th year - 2nd semster\graduation project\mnist v2.0\cnn.h
+	"Dictionary.h"
+	"Matrix.h"
+	"Volume.h"
+	"NN_Tools.h"
+	"Activations.h"
+	"ConvFeedForward.h"
+	"ConvBackProb.h"
+
+1552042112 f:\college\4th year - 2nd semster\graduation project\mnist v2.0\dictionary.h
+	<iostream>
+	<string>
+	<process.h>
+	<conio.h>
+	<list>
+	<vector>
+	<stdlib.h>
+
+1552042112 f:\college\4th year - 2nd semster\graduation project\mnist v2.0\volume.h
+	<vector>
+	"Matrix.h"
+	<stdlib.h>
+
+1552042112 f:\college\4th year - 2nd semster\graduation project\mnist v2.0\nn_tools.h
+	<iostream>
+
+1552042112 f:\college\4th year - 2nd semster\graduation project\mnist v2.0\convfeedforward.h
+	"Volume.h"
+
+1552079093 f:\college\4th year - 2nd semster\graduation project\mnist v2.0\convbackprob.h
+	"ConvFeedForward.h"
+
+1552042112 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\convfeedforward.cpp
+	"ConvFeedForward.h"
+
+1552042112 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\dataset.cpp
+	"DataSet.h"
+	"ConvFeedForward.h"
+
+1552042112 f:\college\4th year - 2nd semster\graduation project\mnist v2.0\dataset.h
+	<fstream>
+	<vector>
+	"Volume.h"
+	"Matrix.h"
+	"ConvFeedForward.h"
+
+1552042112 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\fc_backprob.cpp
+	"CNN.h"
+
+1552042112 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\fc_feedforward.cpp
+	"CNN.h"
+
+1552042112 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\lenet1.cpp
+	"CNN.h"
+
+1552042112 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\nn_tools.cpp
+	"NN_Tools.h"
+
+1552042112 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\volume.cpp
+	"Volume.h"
+
+1552079067 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\convbackprob.cpp
+	"ConvBackProb.h"
+
+1552079169 source:f:\college\4th year - 2nd semster\graduation project\mnist v2.0\main.cpp
+	<iostream>
+	"NN_Tools.h"
+	"Matrix.h"
+	"Activations.h"
+	"DataSet.h"
+	"CNN.h"
+	"ConvBackProb.h"
+

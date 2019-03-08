@@ -4,6 +4,7 @@
 #include "Activations.h"
 #include "DataSet.h"
 #include "CNN.h"
+#include "ConvBackProb.h"
 using namespace std;
 
 
