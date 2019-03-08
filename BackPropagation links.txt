@@ -1,0 +1,18 @@
+leNet structures:
+https://www.researchgate.net/publication/2376934_Learning_Algorithms_For_Classification_A_Comparison_On_Handwritten_Digit_Recognition
+
+/////////////////////////////////////////////////////////////////
+Backpropagation:
+
+https://medium.com/@2017csm1006/forward-and-backpropagation-in-convolutional-neural-network-4dfa96d7b37e
+
+https://medium.com/@pavisj/convolutions-and-backpropagations-46026a8f5d2c
+
+/////////////////////////////////////////////////////////////////
+Convolution Arithmetic:
+
+http://deeplearning.net/software/theano/tutorial/conv_arithmetic.html
+
+https://www.quora.com/How-do-you-show-that-a-transposed-convolution-is-equivalent-to-a-back-prop-step-of-the-convolution-layer-with-the-same-weights-as-in-a-forward-propagation
+
+https://www.youtube.com/watch?v=Xk7myx9_OmU
