@@ -8,6 +8,8 @@ https://medium.com/@2017csm1006/forward-and-backpropagation-in-convolutional-neu
 
 https://medium.com/@pavisj/convolutions-and-backpropagations-46026a8f5d2c
 
+https://grzegorzgwardys.wordpress.com/2016/04/22/8/?fbclid=IwAR1i1m4fzGs80CC-s7rk4AeeS9HfN7fuoNQOcs4jPvmCnyDmSR59Td5t2n4
+
 /////////////////////////////////////////////////////////////////
 Convolution Arithmetic:
 
@@ -16,3 +18,10 @@ http://deeplearning.net/software/theano/tutorial/conv_arithmetic.html
 https://www.quora.com/How-do-you-show-that-a-transposed-convolution-is-equivalent-to-a-back-prop-step-of-the-convolution-layer-with-the-same-weights-as-in-a-forward-propagation
 
 https://www.youtube.com/watch?v=Xk7myx9_OmU
+
+/////////////////////////////////////////////////////////////////
+C++ implementation:
+
+http://eric-yuan.me/cnn/?fbclid=IwAR2BazqRO0YbD9XfloKsu5ZIsnQZlRyjyV14IsF5N16xtLZ-4i77LaWj81c
+
+http://eric-yuan.me/cnn2/
