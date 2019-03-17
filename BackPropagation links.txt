@@ -19,6 +19,8 @@ https://www.quora.com/How-do-you-show-that-a-transposed-convolution-is-equivalen
 
 https://www.youtube.com/watch?v=Xk7myx9_OmU
 
+https://towardsdatascience.com/up-sampling-with-transposed-convolution-9ae4f2df52d0
+
 /////////////////////////////////////////////////////////////////
 C++ implementation:
 
