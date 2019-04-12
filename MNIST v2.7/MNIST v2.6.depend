@@ -1,0 +1,560 @@
+# depslib dependency file v1.0
+1554542906 source:f:\4th computer and control\project\second semester problem\mnist v2.6\activations.cpp
+	"Activations.h"
+
+1553191387 f:\4th computer and control\project\second semester problem\mnist v2.6\activations.h
+	"Matrix.h"
+
+1553787485 f:\4th computer and control\project\second semester problem\mnist v2.6\matrix.h
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<iomanip>
+	<sstream>
+	<math.h>
+	<random>
+	<fstream>
+
+1554542906 source:f:\4th computer and control\project\second semester problem\mnist v2.6\cnn.cpp
+	"CNN.h"
+
+1553257372 f:\4th computer and control\project\second semester problem\mnist v2.6\cnn.h
+	"Dictionary.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"NN_Tools.h"
+	"Activations.h"
+	"ConvFeedForward.h"
+	"ConvBackProb.h"
+
+1554546240 f:\4th computer and control\project\second semester problem\mnist v2.6\dictionary.h
+	<iostream>
+	<string>
+	<process.h>
+	<conio.h>
+	<list>
+	<vector>
+	<stdlib.h>
+	<cstring>
+
+1552643729 f:\4th computer and control\project\second semester problem\mnist v2.6\volume.h
+	<vector>
+	"Matrix.h"
+	<stdlib.h>
+
+1552831663 f:\4th computer and control\project\second semester problem\mnist v2.6\vectvolume.h
+	"Volume.h"
+
+1554489315 f:\4th computer and control\project\second semester problem\mnist v2.6\nn_tools.h
+	<iostream>
+	"Matrix.h"
+
+1552748819 f:\4th computer and control\project\second semester problem\mnist v2.6\convfeedforward.h
+	"VectVolume.h"
+
+1552831863 f:\4th computer and control\project\second semester problem\mnist v2.6\convbackprob.h
+	"CNN.h"
+	"ConvFeedForward.h"
+
+1553207139 source:f:\4th computer and control\project\second semester problem\mnist v2.6\convbackprob.cpp
+	"CNN.h"
+
+1553207926 source:f:\4th computer and control\project\second semester problem\mnist v2.6\convfeedforward.cpp
+	"CNN.h"
+
+1553784251 source:f:\4th computer and control\project\second semester problem\mnist v2.6\dataset.cpp
+	"DataSet.h"
+	"ConvFeedForward.h"
+
+1553108244 f:\4th computer and control\project\second semester problem\mnist v2.6\dataset.h
+	<fstream>
+	<vector>
+	"Volume.h"
+	"Matrix.h"
+	"ConvFeedForward.h"
+
+1554542906 source:f:\4th computer and control\project\second semester problem\mnist v2.6\fc_backprob.cpp
+	"CNN.h"
+	"NN_Tools.h"
+
+1554552024 source:f:\4th computer and control\project\second semester problem\mnist v2.6\fc_feedforward.cpp
+	"CNN.h"
+
+1554552501 source:f:\4th computer and control\project\second semester problem\mnist v2.6\fullyconnected.cpp
+	"CNN.h"
+
+1553207139 source:f:\4th computer and control\project\second semester problem\mnist v2.6\lenet1.cpp
+
+1554504216 source:f:\4th computer and control\project\second semester problem\mnist v2.6\main.cpp
+	<iostream>
+	"NN_Tools.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"Dictionary.h"
+	"Activations.h"
+	"DataSet.h"
+	"CNN.h"
+	"ConvBackProb.h"
+
+1554489315 source:f:\4th computer and control\project\second semester problem\mnist v2.6\nn_tools.cpp
+	"NN_Tools.h"
+
+1552831663 source:f:\4th computer and control\project\second semester problem\mnist v2.6\vectvolume.cpp
+	"VectVolume.h"
+
+1552676515 source:f:\4th computer and control\project\second semester problem\mnist v2.6\volume.cpp
+	"Volume.h"
+
+1554542906 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\activations.cpp
+	"Activations.h"
+
+1553191387 f:\codes\c++\asd\mnist v2.6\mnist v2.6\activations.h
+	"Matrix.h"
+
+1554551939 f:\codes\c++\asd\mnist v2.6\mnist v2.6\matrix.h
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<iomanip>
+	<sstream>
+	<math.h>
+	<random>
+	<fstream>
+
+1554542906 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\cnn.cpp
+	"CNN.h"
+
+1554715103 f:\codes\c++\asd\mnist v2.6\mnist v2.6\cnn.h
+	"Dictionary.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"NN_Tools.h"
+	"Activations.h"
+	"ConvFeedForward.h"
+	"ConvBackProb.h"
+
+1554546240 f:\codes\c++\asd\mnist v2.6\mnist v2.6\dictionary.h
+	<iostream>
+	<string>
+	<process.h>
+	<conio.h>
+	<list>
+	<vector>
+	<stdlib.h>
+	<cstring>
+
+1552643729 f:\codes\c++\asd\mnist v2.6\mnist v2.6\volume.h
+	<vector>
+	"Matrix.h"
+	<stdlib.h>
+
+1552831663 f:\codes\c++\asd\mnist v2.6\mnist v2.6\vectvolume.h
+	"Volume.h"
+
+1554489315 f:\codes\c++\asd\mnist v2.6\mnist v2.6\nn_tools.h
+	<iostream>
+	"Matrix.h"
+
+1552748819 f:\codes\c++\asd\mnist v2.6\mnist v2.6\convfeedforward.h
+	"VectVolume.h"
+
+1554715015 f:\codes\c++\asd\mnist v2.6\mnist v2.6\convbackprob.h
+	"CNN.h"
+	"ConvFeedForward.h"
+
+1553207139 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\convbackprob.cpp
+	"CNN.h"
+
+1553207926 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\convfeedforward.cpp
+	"CNN.h"
+
+1553784251 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\dataset.cpp
+	"DataSet.h"
+	"ConvFeedForward.h"
+
+1553108244 f:\codes\c++\asd\mnist v2.6\mnist v2.6\dataset.h
+	<fstream>
+	<vector>
+	"Volume.h"
+	"Matrix.h"
+	"ConvFeedForward.h"
+
+1554551938 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\fc_backprob.cpp
+	"CNN.h"
+	"NN_Tools.h"
+
+1553207139 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\lenet1.cpp
+
+1554489315 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\nn_tools.cpp
+	"NN_Tools.h"
+
+1552831663 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\vectvolume.cpp
+	"VectVolume.h"
+
+1552676515 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\volume.cpp
+	"Volume.h"
+
+1554588401 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\main.cpp
+	<iostream>
+	"NN_Tools.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"Dictionary.h"
+	"Activations.h"
+	"DataSet.h"
+	"CNN.h"
+	"ConvBackProb.h"
+
+1554551938 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\fc_feedforward.cpp
+	"CNN.h"
+
+1554551939 source:f:\codes\c++\asd\mnist v2.6\mnist v2.6\fullyconnected.cpp
+	"CNN.h"
+
+1554904651 source:f:\codes\c++\asd\mnist v3.0\convbackprob.cpp
+	"NeuralNetwork.h"
+
+1554733765 f:\codes\c++\asd\mnist v3.0\cnn.h
+	"Dictionary.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"NN_Tools.h"
+	"Activations.h"
+	"ConvFeedForward.h"
+	"ConvBackProb.h"
+
+1554871576 f:\codes\c++\asd\mnist v3.0\dictionary.h
+	<iostream>
+	<string>
+	<process.h>
+	<conio.h>
+	<list>
+	<vector>
+	<stdlib.h>
+	<cstring>
+	"VectVolume.h"
+
+1554910582 f:\codes\c++\asd\mnist v3.0\matrix.h
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<iomanip>
+	<sstream>
+	<math.h>
+	<random>
+	<fstream>
+
+1554738711 f:\codes\c++\asd\mnist v3.0\volume.h
+	<vector>
+	"Matrix.h"
+	<stdlib.h>
+
+1552831663 f:\codes\c++\asd\mnist v3.0\vectvolume.h
+	"Volume.h"
+
+1554734629 f:\codes\c++\asd\mnist v3.0\nn_tools.h
+	<iostream>
+	"Matrix.h"
+	"Activations.h"
+
+1554734920 f:\codes\c++\asd\mnist v3.0\activations.h
+	"Matrix.h"
+
+1554829212 f:\codes\c++\asd\mnist v3.0\convfeedforward.h
+	"VectVolume.h"
+
+1554829401 f:\codes\c++\asd\mnist v3.0\convbackprob.h
+	"NeuralNetwork.h"
+	"ConvFeedForward.h"
+
+1554910850 source:f:\codes\c++\asd\mnist v3.0\dataset.cpp
+	"DataSet.h"
+	"ConvFeedForward.h"
+
+1553108244 f:\codes\c++\asd\mnist v3.0\dataset.h
+	<fstream>
+	<vector>
+	"Volume.h"
+	"Matrix.h"
+	"ConvFeedForward.h"
+
+1554739128 source:f:\codes\c++\asd\mnist v3.0\vectvolume.cpp
+	"VectVolume.h"
+
+1554738711 source:f:\codes\c++\asd\mnist v3.0\volume.cpp
+	"Volume.h"
+
+1554828578 source:f:\codes\c++\asd\mnist v3.0\activations.cpp
+	"Activations.h"
+
+1554733805 source:f:\codes\c++\asd\mnist v3.0\cnn.cpp
+	"CNN.h"
+
+1554906152 source:f:\codes\c++\asd\mnist v3.0\convfeedforward.cpp
+	"NeuralNetwork.h"
+
+1554829401 source:f:\codes\c++\asd\mnist v3.0\fc_backprob.cpp
+	"NeuralNetwork.h"
+	"NN_Tools.h"
+
+1554829401 source:f:\codes\c++\asd\mnist v3.0\fc_feedforward.cpp
+	"NeuralNetwork.h"
+
+1554829401 source:f:\codes\c++\asd\mnist v3.0\fullyconnected.cpp
+	"NeuralNetwork.h"
+
+1554912777 source:f:\codes\c++\asd\mnist v3.0\lenet1.cpp
+
+1554733765 source:f:\codes\c++\asd\mnist v3.0\nn_tools.cpp
+	"NN_Tools.h"
+
+1554910933 source:f:\codes\c++\asd\mnist v3.0\main.cpp
+	<iostream>
+	"NN_Tools.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"Dictionary.h"
+	"Activations.h"
+	"DataSet.h"
+	"NeuralNetwork.h"
+	"ConvBackProb.h"
+
+1554835598 f:\codes\c++\asd\mnist v3.0\neuralnetwork.h
+	"Dictionary.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"NN_Tools.h"
+	"Activations.h"
+	"ConvFeedForward.h"
+	"ConvBackProb.h"
+
+1554873678 source:f:\codes\c++\asd\mnist v3.0\neuralnetwork.cpp
+	"NeuralNetwork.h"
+
+1554828578 source:f:\codes\c++\asd\leaks\activations.cpp
+	"Activations.h"
+
+1554734920 f:\codes\c++\asd\leaks\activations.h
+	"Matrix.h"
+
+1554910582 f:\codes\c++\asd\leaks\matrix.h
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<iomanip>
+	<sstream>
+	<math.h>
+	<random>
+	<fstream>
+
+1555067940 source:f:\codes\c++\asd\leaks\convbackprob.cpp
+	"NeuralNetwork.h"
+
+1555062391 f:\codes\c++\asd\leaks\neuralnetwork.h
+	"Dictionary.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"NN_Tools.h"
+	"Activations.h"
+	"ConvFeedForward.h"
+	"ConvBackProb.h"
+
+1554871576 f:\codes\c++\asd\leaks\dictionary.h
+	<iostream>
+	<string>
+	<process.h>
+	<conio.h>
+	<list>
+	<vector>
+	<stdlib.h>
+	<cstring>
+	"VectVolume.h"
+
+1552831663 f:\codes\c++\asd\leaks\vectvolume.h
+	"Volume.h"
+
+1554738711 f:\codes\c++\asd\leaks\volume.h
+	<vector>
+	"Matrix.h"
+	<stdlib.h>
+
+1554734629 f:\codes\c++\asd\leaks\nn_tools.h
+	<iostream>
+	"Matrix.h"
+	"Activations.h"
+
+1554829212 f:\codes\c++\asd\leaks\convfeedforward.h
+	"VectVolume.h"
+
+1554829401 f:\codes\c++\asd\leaks\convbackprob.h
+	"NeuralNetwork.h"
+	"ConvFeedForward.h"
+
+1554925431 source:f:\codes\c++\asd\leaks\convfeedforward.cpp
+	"NeuralNetwork.h"
+
+1555073693 source:f:\codes\c++\asd\leaks\fc_backprob.cpp
+	"NeuralNetwork.h"
+	"NN_Tools.h"
+
+1555073693 source:f:\codes\c++\asd\leaks\fc_feedforward.cpp
+	"NeuralNetwork.h"
+
+1555073693 source:f:\codes\c++\asd\leaks\fullyconnected.cpp
+	"NeuralNetwork.h"
+
+1555062391 source:f:\codes\c++\asd\leaks\neuralnetwork.cpp
+	"NeuralNetwork.h"
+
+1554733765 source:f:\codes\c++\asd\leaks\nn_tools.cpp
+	"NN_Tools.h"
+
+1554739128 source:f:\codes\c++\asd\leaks\vectvolume.cpp
+	"VectVolume.h"
+
+1554738711 source:f:\codes\c++\asd\leaks\volume.cpp
+	"Volume.h"
+
+1555073964 source:f:\codes\c++\asd\leaks\dataset.cpp
+	"DataSet.h"
+	"ConvFeedForward.h"
+
+1553108244 f:\codes\c++\asd\leaks\dataset.h
+	<fstream>
+	<vector>
+	"Volume.h"
+	"Matrix.h"
+	"ConvFeedForward.h"
+
+1555079844 source:f:\codes\c++\asd\leaks\lenet1.cpp
+
+1555080090 source:f:\codes\c++\asd\leaks\main.cpp
+	<iostream>
+	"NN_Tools.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"Dictionary.h"
+	"Activations.h"
+	"DataSet.h"
+	"NeuralNetwork.h"
+	"ConvBackProb.h"
+
+1554828578 source:f:\codes\c++\asd\mnist v2.7\activations.cpp
+	"Activations.h"
+
+1554734920 f:\codes\c++\asd\mnist v2.7\activations.h
+	"Matrix.h"
+
+1554910582 f:\codes\c++\asd\mnist v2.7\matrix.h
+	<iostream>
+	<ctime>
+	<cstdlib>
+	<iomanip>
+	<sstream>
+	<math.h>
+	<random>
+	<fstream>
+
+1555086324 source:f:\codes\c++\asd\mnist v2.7\convbackprob.cpp
+	"NeuralNetwork.h"
+
+1555062391 f:\codes\c++\asd\mnist v2.7\neuralnetwork.h
+	"Dictionary.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"NN_Tools.h"
+	"Activations.h"
+	"ConvFeedForward.h"
+	"ConvBackProb.h"
+
+1554871576 f:\codes\c++\asd\mnist v2.7\dictionary.h
+	<iostream>
+	<string>
+	<process.h>
+	<conio.h>
+	<list>
+	<vector>
+	<stdlib.h>
+	<cstring>
+	"VectVolume.h"
+
+1552831663 f:\codes\c++\asd\mnist v2.7\vectvolume.h
+	"Volume.h"
+
+1554738711 f:\codes\c++\asd\mnist v2.7\volume.h
+	<vector>
+	"Matrix.h"
+	<stdlib.h>
+
+1554734629 f:\codes\c++\asd\mnist v2.7\nn_tools.h
+	<iostream>
+	"Matrix.h"
+	"Activations.h"
+
+1554829212 f:\codes\c++\asd\mnist v2.7\convfeedforward.h
+	"VectVolume.h"
+
+1554829401 f:\codes\c++\asd\mnist v2.7\convbackprob.h
+	"NeuralNetwork.h"
+	"ConvFeedForward.h"
+
+1554925431 source:f:\codes\c++\asd\mnist v2.7\convfeedforward.cpp
+	"NeuralNetwork.h"
+
+1555085963 source:f:\codes\c++\asd\mnist v2.7\dataset.cpp
+	"DataSet.h"
+	"ConvFeedForward.h"
+
+1555085963 f:\codes\c++\asd\mnist v2.7\dataset.h
+	<fstream>
+	<vector>
+	"Volume.h"
+	"Matrix.h"
+	"ConvFeedForward.h"
+
+1555073693 source:f:\codes\c++\asd\mnist v2.7\fc_backprob.cpp
+	"NeuralNetwork.h"
+	"NN_Tools.h"
+
+1555085462 source:f:\codes\c++\asd\mnist v2.7\fc_feedforward.cpp
+	"NeuralNetwork.h"
+
+1555073693 source:f:\codes\c++\asd\mnist v2.7\fullyconnected.cpp
+	"NeuralNetwork.h"
+
+1555086324 source:f:\codes\c++\asd\mnist v2.7\lenet1.cpp
+
+1555062391 source:f:\codes\c++\asd\mnist v2.7\neuralnetwork.cpp
+	"NeuralNetwork.h"
+
+1554733765 source:f:\codes\c++\asd\mnist v2.7\nn_tools.cpp
+	"NN_Tools.h"
+
+1554739128 source:f:\codes\c++\asd\mnist v2.7\vectvolume.cpp
+	"VectVolume.h"
+
+1554738711 source:f:\codes\c++\asd\mnist v2.7\volume.cpp
+	"Volume.h"
+
+1555091640 source:f:\codes\c++\asd\mnist v2.7\main.cpp
+	<iostream>
+	"NN_Tools.h"
+	"Matrix.h"
+	"Volume.h"
+	"VectVolume.h"
+	"Dictionary.h"
+	"Activations.h"
+	"DataSet.h"
+	"NeuralNetwork.h"
+	"ConvBackProb.h"
+
