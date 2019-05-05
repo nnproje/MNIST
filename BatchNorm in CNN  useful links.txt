@@ -1,0 +1,3 @@
+1- https://stackoverflow.com/questions/38553927/batch-normalization-in-convolutional-neural-network
+2-http://cs231n.github.io/convolutional-networks/#conv
+3-https://ustcnewly.github.io/2019/01/06/machine_learning/Normalization/
